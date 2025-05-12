@@ -19,7 +19,7 @@ export default function CTA() {
           </p>
         </div>
         <button className={`${styles.primaryButton} ${styles.glowEffect}`}>
-          Daftar Sekarang - Gratis 7 Hari
+          Daftar Sekarang
         </button>
       </motion.div>
     </section>

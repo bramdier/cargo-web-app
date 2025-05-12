@@ -6,7 +6,7 @@ const features = [
   {
     icon: <FaUsers size={40} />,
     title: "Komunitas Solid",
-    description: "Bergabung dengan 500+ anggota aktif yang saling mendukung"
+    description: "Bergabung dengan 50+ anggota aktif yang saling mendukung"
   },
   {
     icon: <FaCalendarAlt size={40} />,
@@ -15,8 +15,8 @@ const features = [
   },
   {
     icon: <FaTrophy size={40} />,
-    title: "Kompetisi Bulanan",
-    description: "Ajang menunjukkan skill dan memenangkan hadiah"
+    title: "Latihan Kompetitif",
+    description: "Menjadi pemenang terhadap diri sendiri"
   },
   {
     icon: <FaChartLine size={40} />,

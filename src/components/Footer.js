@@ -31,14 +31,14 @@ export default function Footer() {
             <ul>
               <li>Email: abrahamsiregar99@gmail.com</li>
               <li>Telepon: +62 822  745 836 89</li>
-              <li>Alamat: Gor Grogol, Indonesia</li>
+              <li>Alamat: Gor Grogol, Jakarta Barat</li>
             </ul>
           </div>
         </div>
       </div>
       
       <div className={styles.footerBottom}>
-        <p>&copy; {new Date().getFullYear()} PowerCalisthenics. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Cargo. All rights reserved.</p>
       </div>
     </footer>
   )
