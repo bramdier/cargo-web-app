@@ -12,13 +12,13 @@ const testimonials = [
     name: "Lemmy Junior",
     role: "Anggota 1 Tahun",
     content: "Program untuk perempuan di sini sangat bagus. Saya bisa mencapai first pull-up dalam 3 bulan!",
-    image: "/images/avatar-2.jpg"
+    image: "/images/avatar-1.jpg"
   },
   {
     name: "Cristoper Kennard",
     role: "Anggota 6 Bulan",
     content: "Coach-nya profesional banget. Teknik diajarkan dengan detail dan aman untuk pemula seperti saya.",
-    image: "/images/avatar-3.jpg"
+    image: "/images/avatar-1.jpg"
   }
 ]
 
