@@ -26,7 +26,7 @@ export default function Header() {
           <a href="#features">Fitur</a>
           <a href="#testimonials">Testimoni</a>
           <a href="#join">Bergabung</a>
-          <button className={styles.navButton}>Mulai Sekarang</button>
+          {/* <button className={styles.navButton}>Mulai Sekarang</button> */}
         </nav>
 
         <button 

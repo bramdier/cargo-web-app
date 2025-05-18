@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Cargo | Komunitas Kalistenik Grogol</title>
+        <title>Cargo | Kalistenik Grogol</title>
         <meta name="description" content="Komunitas kalistenik futuristik untuk transformasi fisik Anda" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>

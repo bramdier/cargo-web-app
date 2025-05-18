@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section id="home" className={styles.hero}>
       <div className={styles.heroContent}>
-        <motion.h1 
+        <motion.h1
           className={styles.heroTitle}
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -13,8 +13,8 @@ export default function Hero() {
         >
           <span>Transformasi</span> Fisik Anda Dimulai Di Sini
         </motion.h1>
-        
-        <motion.p 
+
+        <motion.p
           className={styles.heroSubtitle}
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -22,25 +22,33 @@ export default function Hero() {
         >
           Bergabung dengan komunitas kalistenik grogol dan capai potensi fisik maksimal Anda
         </motion.p>
-        
-        <motion.div 
+
+        <motion.div
           className={styles.heroButtons}
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
         >
-          <button className={`${styles.primaryButton} ${styles.glowEffect}`}>
+          <a
+            href="https://forms.gle/oFgiRUgbq5TEB9r17"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`${styles.primaryButton} ${styles.glowEffect}`}
+          >
             Daftar Sekarang
-          </button>
-          <button className={styles.secondaryButton}>
-            Pelajari Lebih Lanjut
-          </button>
+          </a>
+          <a
+          href="#features"
+          className={styles.secondaryButton}
+          >
+            More
+          </a>
         </motion.div>
       </div>
-      
+
       <div className={styles.heroVisual}>
         <div className={styles.floatingElements}>
-          <motion.div 
+          <motion.div
             className={styles.floatingCircle1}
             animate={{
               y: [0, -20, 0],
@@ -52,7 +60,7 @@ export default function Hero() {
               ease: "easeInOut"
             }}
           />
-          <motion.div 
+          <motion.div
             className={styles.floatingCircle2}
             animate={{
               y: [0, -30, 0],

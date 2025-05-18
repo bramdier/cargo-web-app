@@ -18,9 +18,14 @@ export default function CTA() {
             grup diskusi, dan sesi latihan bersama.
           </p>
         </div>
-        <button className={`${styles.primaryButton} ${styles.glowEffect}`}>
-          Daftar Sekarang
-        </button>
+        <a
+            href="https://forms.gle/oFgiRUgbq5TEB9r17"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`${styles.primaryButton} ${styles.glowEffect}`}
+          >
+            Daftar Sekarang
+          </a>
       </motion.div>
     </section>
   )
