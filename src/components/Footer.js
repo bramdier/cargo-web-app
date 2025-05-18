@@ -9,7 +9,7 @@ export default function Footer() {
           <h3><span>Cargo</span></h3>
           <p>Komunitas kalistenik modern untuk semua level</p>
           <div className={styles.socialLinks}>
-            <a href="#"><FaInstagram size={20} /></a>
+            <a href="https://www.instagram.com/cargo_jkt?igsh=MTZrMnI0cnh6OW9xdg==" target="_blank"><FaInstagram size={20} /></a>
             <a href="#"><FaYoutube size={20} /></a>
             <a href="#"><FaDiscord size={20} /></a>
           </div>
